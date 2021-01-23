@@ -1,10 +1,13 @@
+import { lazy } from "react";
 import { Route } from "react-router-dom";
 
-import Home from "@/pages/Home";
-import Login from "@/pages/Login";
-
+// import Posts from "@/pages/Posts";
 import RouteAuth from "./RouteAuth";
 import RouteUnauth from "./RouteUnauth";
+
+const Home = lazy(() => import("@/pages/Home"));
+const Login = lazy(() => import("@/pages/Login"));
+const Posts = lazy(() => import("@/pages/Posts"));
 
 export const ROUTE_COMPONENTS = {
   auth: RouteAuth,
@@ -23,6 +26,12 @@ export const ROUTES = [
     path: "/login",
     component: Login,
     routeComponent: ROUTE_COMPONENTS.unauth,
+    exact: true,
+  },
+  {
+    path: "/posts",
+    component: Posts,
+    routeComponent: ROUTE_COMPONENTS.any,
     exact: true,
   },
 ];

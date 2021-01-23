@@ -11,9 +11,7 @@
     "json-server": "node ./json-server/index.js"
   },
   "browserslist": [
-    "last 2 versions",
-    "> 1%",
-    "IE 10"
+    "supports es6-module"
   ],
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -64,7 +62,7 @@
     "react": "^16.13.1",
     "react-hook-form": "^6.2.0",
     "react-hot-loader": "^4.12.21",
-    "react-query": "^2.5.13",
+    "react-query": "^3.2.0-beta.30",
     "react-router-dom": "^5.2.0",
     "regenerator-runtime": "^0.13.7",
     "styled-components": "^5.1.1"

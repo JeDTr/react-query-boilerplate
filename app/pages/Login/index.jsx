@@ -1,5 +1,5 @@
 import React from "react";
-import { useMutation } from "react-query";
+import { useMutation } from "react-query/react";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
 
@@ -12,7 +12,7 @@ import * as S from "./styled";
 const Login = () => {
   const history = useHistory();
   const { setUser } = useAuthContext();
-  const [mutate, { isLoading, error }] = useMutation((data) =>
+  const { mutate, isLoading, error } = useMutation((data) =>
     axios.post("http://localhost:5000/login", data),
   );
 

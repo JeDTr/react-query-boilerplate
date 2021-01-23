@@ -51,7 +51,8 @@ server.post("/login", (req, res) => {
 });
 
 // Use default router
-server.use(authenticate, router);
+// server.use(authenticate, router);
+server.use(router);
 server.listen(5000, () => {
   console.log("JSON Server is running");
 });

@@ -7059,12 +7059,12 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-query@^2.5.13:
-  version "2.5.13"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-2.5.13.tgz#0948e044416562c4c58c966c27387ce4037bbf5a"
-  integrity sha512-jdpHWav8hh8KwIL6v021/S1jE7GTKBcZe7o86MfKObZ7fIAz8Rx6HhC8Pej5MwcR//uESdnfNoyr+OQr2Pbfeg==
+react-query@^3.2.0-beta.30:
+  version "3.2.0-beta.30"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.2.0-beta.30.tgz#b5be7790e00911a2126c1dadc7e07dbfe768bd13"
+  integrity sha512-OaKvcXUz8nwxsgs4AYjwC0h4Z9Ku4K124HAiqTBLPN6/Vv/p6L//JdGZa+fz618jE2lnc1HsR2RRpkmO2L1KzA==
   dependencies:
-    ts-toolbelt "^6.9.4"
+    "@babel/runtime" "^7.5.5"
 
 react-router-dom@^5.2.0:
   version "5.2.0"
@@ -8399,11 +8399,6 @@ trim-repeated@^1.0.0:
   integrity sha1-42RqLqTokTEr9+rObPsFOAvAHCE=
   dependencies:
     escape-string-regexp "^1.0.2"
-
-ts-toolbelt@^6.9.4:
-  version "6.13.37"
-  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.13.37.tgz#3bf7993c973b02371a598348c586e599faea4fe6"
-  integrity sha512-K8P25O7Fx+zHuSBJNQkdwg1OYRA/zerWNltt1EXLoPHQ8kP5ADhJREQgZzi+ka+rHtx0/i/4AdWHJi5V1fdEow==
 
 tsconfig-paths@^3.9.0:
   version "3.9.0"
