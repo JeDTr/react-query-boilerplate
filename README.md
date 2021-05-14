@@ -1,4 +1,6 @@
-# react-query-boilerplate
+# Move to https://github.com/JeDTr/react-redux-boilerplate/tree/react-query
+
+## react-query-boilerplate
 
 Webpack + React + React Query
 
