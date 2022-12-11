@@ -58,7 +58,7 @@
     "core-js": "^3.6.5",
     "dayjs": "^1.8.30",
     "lodash-es": "^4.17.15",
-    "qs": "^6.9.4",
+    "qs": "^6.9.7",
     "react": "^16.13.1",
     "react-hook-form": "^6.2.0",
     "react-hot-loader": "^4.12.21",
